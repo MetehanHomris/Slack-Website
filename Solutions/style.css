@@ -1,1 +1,129 @@
-noslkdmfvcc
+.firstgrid{
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+    "a a b b c c"
+    "a a b b c c"
+    "e e f f g g"
+    "e e h h i i";
+    height: 400px;
+    padding:15px;
+}
+
+.almondpart{
+    background-color: #F4EDE4;
+}
+
+.firsttitle{
+    padding-left:30px;
+    padding-top:15px;
+}
+
+.engineergrid{
+    grid-area: a;
+    padding:15px;
+    background-color: white;
+}
+
+.itgrid{
+    grid-area: b;
+    padding:15px;
+    background-color: white;
+}
+
+.csgrid{
+    grid-area: c;
+    padding:15px;
+    background-color: white;
+}
+
+.salesgrid{
+    grid-area: e;
+    padding:15px;
+    background-color: white;
+}
+
+.pmgrid{
+    grid-area: f;
+    padding:15px;
+    background-color: white;
+}
+
+.hrgrid{
+    grid-area: g;
+    padding:15px;
+    background-color: white;
+}
+
+.marketinggrid{
+    grid-area: h;
+    padding:15px;
+    background-color: white;
+}
+
+
+.securitygrid{
+    grid-area: i;
+    padding:15px;
+    background-color: white;
+}
+
+.secondgrid{
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+    "z z y y t t"
+    "z z y y t t";
+    height: 200px;
+    padding:15px;
+}
+
+.secondtitle{
+    padding-left:30px;
+    padding-top:15px;
+}
+
+.educationgrid{
+    grid-area: z;
+    padding:15px;
+    background-color: white;
+}
+
+.mediagrid{
+    grid-area: y;
+    padding:15px;
+    background-color: white;
+}
+
+.fsgrid{
+    grid-area: t;
+    padding:15px;
+    background-color: white;
+}
+
+.thirdtitle{
+    padding-left:30px;
+    padding-top:15px;
+}
+
+.thirdgrid{
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+    "o o q q"
+    "o o q q";
+    height: 200px;
+    padding:15px;
+}
+
+.digitalhqgrid{
+    grid-area: o;
+    padding:15px;
+    background-color: white;    
+}
+
+.tmgrid{
+    grid-area: q;
+    padding:15px;
+    background-color: white;    
+}
