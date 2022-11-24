@@ -1,0 +1,89 @@
+body {
+  background-color: #f4ede4;
+  min-height: 150vh;
+  width: 100%;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma,
+    Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  min-height: 10vh;
+  width: 100%;
+}
+
+.container1 {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container1-left {
+  min-height: 20vh;
+  width: 35%;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+  margin: 10px 0 20px 0;
+}
+
+#text1 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#text2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#img1 {
+  width: 40%;
+}
+
+.buttons {
+  border: #601e69 solid 1px;
+  border-radius: 3px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 550;
+}
+
+#button1 {
+  background-color: #601e69;
+  color: white;
+  padding: 20px 30px 20px 30px;
+  margin-right: 10px;
+}
+
+#button2 {
+  color: #601e69;
+  background-color: rgb(127, 194, 127, 0);
+  border-radius: 3px;
+  padding: 20px 40px 20px 40px;
+}
+
+.container2 {
+  width: 75%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+#img2 {
+  width: 80%;
+  box-shadow: 5px 5px 19px 6px rgb(214, 210, 210);
+}
