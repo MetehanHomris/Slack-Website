@@ -1,89 +1,136 @@
 :root {
-    --primary: #541554;
+  --primary: #541554;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .svg-icon {
-    width: 100px;
-    height: 100px;
-    padding-top: 36px;
+  width: 100px;
+  height: 100px;
+  padding-top: 36px;
 }
 
 .navbar {
-    max-width: 100%;
-    padding: 20px;
-    padding: 0 2rem;
-    display: flex;
-    background-color: #541554;
-    flex-direction: row;
-    justify-content: space-between;
-    color: #fff;
+  max-width: 100%;
+  padding: 20px;
+  padding: 0 2rem;
+  display: flex;
+  background-color: #541554;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
 }
 
-
 .navbar-left {
-    display: flex;
-    flex-direction: row;
-    width: 57%;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 57%;
+  align-items: center;
 }
 
 .navbar-left a {
-    color: #fff;
+  color: #fff;
 }
 
 .navbar-links {
-    display: flex;
-    justify-content: space-between;
-    width: 85%;
-    padding-left: 2rem;
-    font-size: 15px;
-    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
-    font-weight: 700;
+  display: flex;
+  width: 85%;
+  padding-left: 2rem;
+  font-size: 15px;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
+    Tahoma, Arial, sans-serif;
+  font-weight: 700;
 }
 
+.navbar-links .link-element {
+  padding: 0 1.5rem;
+}
 
 .navbar-links a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .navbar-right {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 35%;
-    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
+    Tahoma, Arial, sans-serif;
 }
 
 .navbar-right li {
-    list-style: none;
+  list-style: none;
+  font-weight: 700;
 }
 
-
 .navbar-links li {
-    list-style: none;
+  list-style: none;
 }
 
 .button {
-    padding: 0.75rem 1rem;
-    border-radius: 5px;
-    color: #fff;
-    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  color: #fff;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
+    Tahoma, Arial, sans-serif;
 }
 
 .talk-button {
-    background: transparent;
-    border: 2px solid white;
+  background: transparent;
+  border: 2px solid white;
 }
 
 .try-button {
-    background: #fff;
-    border: 2px solid #fff;
-    color: var(--primary);
-    font-weight: 700
+  background: #fff;
+  border: 2px solid #fff;
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.product {
+    display: flex;
+    padding-right: 24px;
+}
+
+.solutions {
+    display: flex;
+}
+
+.solutions li {
+    padding-right: 7px;
+}
+
+.product li {
+    padding-right: 7px; 
+}
+
+.fa-solid {
+    padding-top: 2px;
+    padding-right: 0;
+}
+
+a {
+    position: relative;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(1);
+    opacity: 0;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transition: opacity 0.1s linear;
+}
+
+a:hover::after {
+    opacity: 1;
 }
