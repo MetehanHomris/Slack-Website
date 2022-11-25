@@ -51,9 +51,11 @@ h1 {
 .buttons {
   border: #601e69 solid 1px;
   border-radius: 3px;
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 1px;
   font-weight: 550;
+  cursor: pointer;
+  box-sizing: border-box;
 }
 
 #button1 {
@@ -61,13 +63,23 @@ h1 {
   color: white;
   padding: 20px 30px 20px 30px;
   margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+#button1:hover {
+  background-color: #4a154b;
 }
 
 #button2 {
   color: #601e69;
-  background-color: rgb(127, 194, 127, 0);
+  background-color: transparent;
   border-radius: 3px;
   padding: 20px 40px 20px 40px;
+  transition: box-shadow 0.5s;
+}
+
+#button2:hover {
+  box-shadow: inset 0 0 0 1px #601e69;
 }
 
 .container2 {
@@ -80,7 +92,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #img2 {
