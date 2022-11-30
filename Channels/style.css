@@ -1,5 +1,4 @@
 body {
-  background-color: #f4ede4;
   font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma,
     Arial, sans-serif;
   display: flex;
@@ -11,6 +10,7 @@ body {
 .navbar {
   min-height: 10vh;
   width: 100%;
+  background-color: #f4ede4;
 }
 
 .tan-1 {
@@ -19,11 +19,13 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: #f4ede4;
 }
 
 .tan-1-left {
   min-height: 20vh;
   width: 35%;
+  background-color: #f4ede4;
 }
 
 h1 {
@@ -81,12 +83,13 @@ h1 {
 }
 
 .tan-2 {
-  width: 75%;
+  width: 100%;
   min-height: 90vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  background-color: #f4ede4;
 }
 
 h2 {
@@ -104,14 +107,14 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #ffffff;
-  min-height: 200vh;
+  min-height: 180vh;
   width: 100%;
+  border-bottom: 1px solid rgb(128, 128, 128, 0.2);
 }
 
 .white-1-container {
   width: 90%;
-  min-height: 50vh;
+  min-height: 60vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -123,5 +126,72 @@ h2 {
 }
 
 p {
-  font-size: 17px;
+  font-size: 18px;
+}
+
+.learn-more {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.learn-more > section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 75%;
+  min-height: 60vh;
+}
+
+.cards {
+  min-height: 55vh;
+  width: 25%;
+  box-shadow: 0 0 10px 1px gainsboro;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: min-height 0.2s, width 0.2s, box-shadow 0.2s;
+  margin-right: 50px;
+}
+
+.cards:hover {
+  min-height: calc(55vh + 20px);
+  width: calc(25% + 10px);
+  cursor: pointer;
+  box-shadow: 0 0 13px 2px rgb(194, 194, 194);
+}
+
+.cards img {
+  width: 100%;
+}
+
+.text3 {
+  font-size: 14px;
+  color: rgb(88, 85, 85);
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 535;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.cards-footer {
+  color: #1163a3;
+  width: 100%;
+  min-height: 1vh;
+}
+
+#arrow {
+  float: right;
+}
+
+i {
+  font-size: 20px;
 }
