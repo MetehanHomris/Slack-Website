@@ -1,7 +1,4 @@
 body {
-  background-color: #f4ede4;
-  min-height: 150vh;
-  width: 100%;
   font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma,
     Arial, sans-serif;
   display: flex;
@@ -13,19 +10,22 @@ body {
 .navbar {
   min-height: 10vh;
   width: 100%;
+  background-color: #f4ede4;
 }
 
-.container1 {
+.tan-1 {
   width: 100%;
   min-height: 60vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: #f4ede4;
 }
 
-.container1-left {
+.tan-1-left {
   min-height: 20vh;
   width: 35%;
+  background-color: #f4ede4;
 }
 
 h1 {
@@ -82,20 +82,116 @@ h1 {
   box-shadow: inset 0 0 0 1px #601e69;
 }
 
-.container2 {
-  width: 75%;
-  min-height: 80vh;
+.tan-2 {
+  width: 100%;
+  min-height: 90vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  background-color: #f4ede4;
 }
 
 h2 {
   font-size: 30px;
+  font-weight: 550;
 }
 
 #img2 {
   width: 80%;
   box-shadow: 5px 5px 19px 6px rgb(214, 210, 210);
+}
+
+.white-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 180vh;
+  width: 100%;
+  border-bottom: 1px solid rgb(128, 128, 128, 0.2);
+}
+
+.white-1-container {
+  width: 90%;
+  min-height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.white-1-container > section {
+  width: 35%;
+  margin: 0 100px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.learn-more {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.learn-more > section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 75%;
+  min-height: 60vh;
+}
+
+.cards {
+  min-height: 55vh;
+  width: 25%;
+  box-shadow: 0 0 10px 1px gainsboro;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: min-height 0.2s, width 0.2s, box-shadow 0.2s;
+  margin-right: 50px;
+}
+
+.cards:hover {
+  min-height: calc(55vh + 20px);
+  width: calc(25% + 10px);
+  cursor: pointer;
+  box-shadow: 0 0 13px 2px rgb(194, 194, 194);
+}
+
+.cards img {
+  width: 100%;
+}
+
+.text3 {
+  font-size: 14px;
+  color: rgb(88, 85, 85);
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 535;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.cards-footer {
+  color: #1163a3;
+  width: 100%;
+  min-height: 1vh;
+}
+
+#arrow {
+  float: right;
+}
+
+i {
+  font-size: 20px;
 }
